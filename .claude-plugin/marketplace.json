@@ -46,8 +46,8 @@
         "source": "github",
         "repo": "brisma/armips-claude-plugin"
       },
-      "description": "armips assembler reference for Claude Code: MIPS (R3000/R4000/Allegrex/RSP/EE) and ARM (ARM7/ARM9/THUMB) instruction sets, directives, expressions, macros, and ROM hacking workflows.",
-      "version": "1.0.0",
+      "description": "armips assembler reference for Claude Code: MIPS (R3000/R4000/Allegrex/RSP/EE) and ARM (ARM7/ARM9/THUMB) instruction sets, directives, expressions, macros, ROM hacking workflows, and project scaffolding.",
+      "version": "1.1.0",
       "license": "MIT",
       "keywords": ["armips", "assembler", "mips", "arm", "rom-hacking", "reverse-engineering", "psx", "psp", "gba", "nds"]
     }
