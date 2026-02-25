@@ -1,0 +1,22 @@
+{
+  "name": "brisma-plugins",
+  "owner": {
+    "name": "brisma"
+  },
+  "metadata": {
+    "description": "Claude Code plugins by brisma"
+  },
+  "plugins": [
+    {
+      "name": "psx-spx",
+      "source": {
+        "source": "github",
+        "repo": "brisma/psx-spx-claude-plugin"
+      },
+      "description": "Complete PSX hardware reference archived from psx-spx.consoledev.net. CPU, GPU, memory, DMA, CDROM, SPU, GTE, MDEC, controllers, BIOS, and more.",
+      "version": "1.0.0",
+      "license": "CC0-1.0",
+      "keywords": ["psx", "playstation", "hardware", "reference", "reverse-engineering", "rom-hacking"]
+    }
+  ]
+}
