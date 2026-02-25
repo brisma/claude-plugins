@@ -17,6 +17,28 @@
       "version": "1.0.0",
       "license": "CC0-1.0",
       "keywords": ["psx", "playstation", "hardware", "reference", "reverse-engineering", "rom-hacking"]
+    },
+    {
+      "name": "ghidra",
+      "source": {
+        "source": "github",
+        "repo": "brisma/ghidra-claude-plugin"
+      },
+      "description": "GhidraMCP integration for Claude Code: MCP server configuration and reverse engineering reference. Decompile, analyze, and annotate binaries in Ghidra via 48 MCP tools.",
+      "version": "1.0.0",
+      "license": "Apache-2.0",
+      "keywords": ["ghidra", "reverse-engineering", "decompiler", "mcp", "binary-analysis"]
+    },
+    {
+      "name": "duckstation",
+      "source": {
+        "source": "github",
+        "repo": "brisma/duckstation-claude-plugin"
+      },
+      "description": "DuckStation PS1 emulator MCP integration for Claude Code: runtime debugging, memory inspection, GPU/SPU state, breakpoints, VRAM watches, controller automation. 148 MCP tools.",
+      "version": "1.0.0",
+      "license": "GPL-3.0",
+      "keywords": ["duckstation", "ps1", "playstation", "emulator", "debugging", "mcp", "reverse-engineering"]
     }
   ]
 }
