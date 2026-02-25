@@ -25,7 +25,7 @@
         "repo": "brisma/ghidra-claude-plugin"
       },
       "description": "GhidraMCP integration for Claude Code: MCP server configuration and reverse engineering reference. Decompile, analyze, and annotate binaries in Ghidra via 48 MCP tools.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "license": "Apache-2.0",
       "keywords": ["ghidra", "reverse-engineering", "decompiler", "mcp", "binary-analysis"]
     },
