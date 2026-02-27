@@ -10,12 +10,13 @@ Claude Code plugin marketplace by brisma.
 
 ## Available Plugins
 
-| Plugin | Description |
-|--------|-------------|
-| `psx-spx` | Complete PSX hardware reference (CPU, GPU, SPU, DMA, CDROM, BIOS, and more) |
-| `ghidra` | GhidraMCP integration — MCP server + 48-tool reference for binary analysis |
-| `duckstation` | DuckStation PS1 emulator MCP integration — 148 tools for runtime debugging |
-| `armips` | armips assembler reference — MIPS/ARM instruction sets, directives, and ROM hacking workflows |
+| Plugin | Version | Description | License |
+|--------|---------|-------------|---------|
+| `psx-spx` | 1.0.0 | Complete PSX hardware reference archived from psx-spx.consoledev.net. CPU, GPU, memory, DMA, CDROM, SPU, GTE, MDEC, controllers, BIOS, and more. | CC0-1.0 |
+| `ghidra` | 1.1.0 | GhidraMCP integration: MCP server configuration and reverse engineering reference. Decompile, analyze, and annotate binaries in Ghidra via 48 MCP tools. | Apache-2.0 |
+| `duckstation` | 1.0.0 | DuckStation PS1 emulator MCP integration: runtime debugging, memory inspection, GPU/SPU state, breakpoints, VRAM watches, controller automation. 95 MCP tools. | GPL-3.0 |
+| `armips` | 1.1.0 | armips assembler reference: MIPS (R3000/R4000/Allegrex/RSP/EE) and ARM (ARM7/ARM9/THUMB) instruction sets, directives, expressions, macros, ROM hacking workflows, and project scaffolding. | MIT |
+| `mesen2` | 1.0.0 | Mesen2 multi-system emulator MCP integration: runtime debugging, memory, disassembly, tracing, ROM hacking, text search. 75 MCP tools for NES/SNES/GB/GBA/PCE/SMS/WS. | GPL-3.0 |
 
 ### Install a plugin
 
@@ -24,4 +25,5 @@ Claude Code plugin marketplace by brisma.
 /plugin install ghidra@brisma-plugins
 /plugin install duckstation@brisma-plugins
 /plugin install armips@brisma-plugins
+/plugin install mesen2@brisma-plugins
 ```
