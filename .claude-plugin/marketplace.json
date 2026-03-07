@@ -36,7 +36,7 @@
         "repo": "brisma/duckstation-claude-plugin"
       },
       "description": "DuckStation PS1 emulator MCP integration for Claude Code: runtime debugging, memory inspection, GPU/SPU state, breakpoints, VRAM watches, controller automation. 95 MCP tools.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "license": "GPL-3.0",
       "keywords": ["duckstation", "ps1", "playstation", "emulator", "debugging", "mcp", "reverse-engineering"]
     },
