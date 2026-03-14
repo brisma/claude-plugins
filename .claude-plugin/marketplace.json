@@ -1,17 +1,17 @@
 {
   "name": "sadnescity-plugins",
   "owner": {
-    "name": "brisma"
+    "name": "sadnescity"
   },
   "metadata": {
-    "description": "Claude Code plugins by brisma"
+    "description": "Claude Code plugins by sadnescity"
   },
   "plugins": [
     {
       "name": "psx-spx",
       "source": {
         "source": "github",
-        "repo": "brisma/psx-spx-claude-plugin"
+        "repo": "sadnescity/psx-spx-claude-plugin"
       },
       "description": "Complete PSX hardware reference archived from psx-spx.consoledev.net. CPU, GPU, memory, DMA, CDROM, SPU, GTE, MDEC, controllers, BIOS, and more.",
       "version": "1.0.0",
@@ -22,7 +22,7 @@
       "name": "ghidra",
       "source": {
         "source": "github",
-        "repo": "brisma/ghidra-claude-plugin"
+        "repo": "sadnescity/ghidra-claude-plugin"
       },
       "description": "GhidraMCP integration for Claude Code: MCP server configuration and reverse engineering reference. Decompile, analyze, and annotate binaries in Ghidra via 48 MCP tools.",
       "version": "1.1.0",
@@ -33,7 +33,7 @@
       "name": "duckstation",
       "source": {
         "source": "github",
-        "repo": "brisma/duckstation-claude-plugin"
+        "repo": "sadnescity/duckstation-claude-plugin"
       },
       "description": "DuckStation PS1 emulator MCP integration for Claude Code: runtime debugging, memory inspection, GPU/SPU state, breakpoints, VRAM watches, controller automation. 95 MCP tools.",
       "version": "1.1.0",
@@ -44,7 +44,7 @@
       "name": "armips",
       "source": {
         "source": "github",
-        "repo": "brisma/armips-claude-plugin"
+        "repo": "sadnescity/armips-claude-plugin"
       },
       "description": "armips assembler reference for Claude Code: MIPS (R3000/R4000/Allegrex/RSP/EE) and ARM (ARM7/ARM9/THUMB) instruction sets, directives, expressions, macros, ROM hacking workflows, and project scaffolding.",
       "version": "1.1.0",
@@ -55,7 +55,7 @@
       "name": "mesen2",
       "source": {
         "source": "github",
-        "repo": "brisma/mesen2-claude-plugin"
+        "repo": "sadnescity/mesen2-claude-plugin"
       },
       "description": "Mesen2 multi-system emulator MCP integration for Claude Code: runtime debugging, memory, disassembly, tracing, ROM hacking, text search. 75 MCP tools for NES/SNES/GB/GBA/PCE/SMS/WS.",
       "version": "1.0.0",

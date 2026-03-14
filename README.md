@@ -1,6 +1,6 @@
 # sadnescity-plugins
 
-Claude Code plugin marketplace by brisma.
+Claude Code plugin marketplace by sadnescity.
 
 ## Installation
 
