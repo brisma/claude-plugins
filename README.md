@@ -1,11 +1,11 @@
-# brisma-plugins
+# sadnescity-plugins
 
 Claude Code plugin marketplace by brisma.
 
 ## Installation
 
 ```bash
-/plugin marketplace add brisma/claude-plugins
+/plugin marketplace add sadnescity/claude-plugins
 ```
 
 ## Available Plugins
@@ -17,13 +17,15 @@ Claude Code plugin marketplace by brisma.
 | `duckstation` | 1.1.0 | DuckStation PS1 emulator MCP integration: runtime debugging, memory inspection, GPU/SPU state, breakpoints, VRAM watches, controller automation. 95 MCP tools. | GPL-3.0 |
 | `armips` | 1.1.0 | armips assembler reference: MIPS (R3000/R4000/Allegrex/RSP/EE) and ARM (ARM7/ARM9/THUMB) instruction sets, directives, expressions, macros, ROM hacking workflows, and project scaffolding. | MIT |
 | `mesen2` | 1.0.0 | Mesen2 multi-system emulator MCP integration: runtime debugging, memory, disassembly, tracing, ROM hacking, text search. 75 MCP tools for NES/SNES/GB/GBA/PCE/SMS/WS. | GPL-3.0 |
+| `ppsspp` | 2.1.0 | PPSSPP PSP emulator MCP integration: CPU debugging, GPU/GE inspection, memory watchpoints, framebuffer dumps, texture/CLUT/depth/stencil inspection, GE display list disassembly, GE breakpoints. 36 MCP tools. | GPL-2.0 |
 
 ### Install a plugin
 
 ```bash
-/plugin install psx-spx@brisma-plugins
-/plugin install ghidra@brisma-plugins
-/plugin install duckstation@brisma-plugins
-/plugin install armips@brisma-plugins
-/plugin install mesen2@brisma-plugins
+/plugin install psx-spx@sadnescity-plugins
+/plugin install ghidra@sadnescity-plugins
+/plugin install duckstation@sadnescity-plugins
+/plugin install armips@sadnescity-plugins
+/plugin install mesen2@sadnescity-plugins
+/plugin install ppsspp@sadnescity-plugins
 ```

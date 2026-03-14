@@ -1,5 +1,5 @@
 {
-  "name": "brisma-plugins",
+  "name": "sadnescity-plugins",
   "owner": {
     "name": "brisma"
   },
@@ -61,6 +61,17 @@
       "version": "1.0.0",
       "license": "GPL-3.0",
       "keywords": ["mesen", "emulator", "nes", "snes", "gameboy", "gba", "debugging", "mcp", "reverse-engineering", "rom-hacking"]
+    },
+    {
+      "name": "ppsspp",
+      "source": {
+        "source": "github",
+        "repo": "sadnescity/ppsspp-claude-plugin"
+      },
+      "description": "PPSSPP PSP emulator MCP integration for Claude Code: CPU debugging, GPU/GE inspection, memory watchpoints, framebuffer dumps, texture/CLUT/depth/stencil inspection, GE display list disassembly, GE breakpoints, HLE module listing. 36 MCP tools for PSP reverse engineering.",
+      "version": "2.1.0",
+      "license": "GPL-2.0",
+      "keywords": ["ppsspp", "psp", "emulator", "debugging", "mcp", "reverse-engineering", "gpu", "rom-hacking"]
     }
   ]
 }
