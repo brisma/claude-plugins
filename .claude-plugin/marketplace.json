@@ -72,6 +72,17 @@
       "version": "2.1.0",
       "license": "GPL-2.0",
       "keywords": ["ppsspp", "psp", "emulator", "debugging", "mcp", "reverse-engineering", "gpu", "rom-hacking"]
+    },
+    {
+      "name": "exodus",
+      "source": {
+        "source": "github",
+        "repo": "sadnescity/exodus-claude-plugin"
+      },
+      "description": "Exodus Emulation Platform MCP integration for Claude Code: M68000/Z80 CPU debugging, memory read/write/search, disassembly, breakpoints, watchpoints, VDP state/sprites/palette/nametables/VRAM/CRAM/VSRAM, screenshot and pixel query. 26 MCP tools for Mega Drive/Genesis reverse engineering.",
+      "version": "1.0.0",
+      "license": "MIT",
+      "keywords": ["exodus", "mega-drive", "genesis", "sega", "emulator", "debugging", "mcp", "reverse-engineering", "m68000"]
     }
   ]
 }
